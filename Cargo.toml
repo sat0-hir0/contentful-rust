@@ -1,0 +1,15 @@
+[package]
+name = "contentful"
+version = "0.1.0"
+authors = ["sat0-hir0 <hiroki.sato1.work@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+actix-rt = "1.1.1"
+getset = "0.1.1"
+chrono = {version = "0.4.19", features= ["serde"]}
+
